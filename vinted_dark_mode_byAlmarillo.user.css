@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Vinted Dark Mode
 @namespace      github.com/openstyles/stylus
-@version        0.1.2
+@version        0.1.3
 @description    A personal dark mode for vinted.fr
 @author         Alma ML
 ==/UserStyle== */
@@ -52,9 +52,11 @@ body,
 }
 
 /**highlights**/
-.Text_heading__gV4um
+.Text_heading__gV4um,
+.gray-font,
+.u-color-gray
 {
-    color: var(--secondary-txt);
+    color: var(--secondary-txt) !important;
 }
 
 /**greyer text **/
@@ -107,4 +109,7 @@ body,
 .user-message-content {
     background-color: var(--forums-posts);
 }
+.list-table {
+    background: transparent;
+    }
 }
