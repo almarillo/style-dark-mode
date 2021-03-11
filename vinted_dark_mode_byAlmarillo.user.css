@@ -1,12 +1,12 @@
 /* ==UserStyle==
 @name           Vinted Dark Mode
 @namespace      github.com/openstyles/stylus
-@version        0.1.1
+@version        0.1.2
 @description    A personal dark mode for vinted.fr
 @author         Alma ML
 ==/UserStyle== */
 
-@-moz-document domain("vinted.fr") {
+@-moz-document domain("vinted.fr"), domain("vinted.nl"), domain("vinted.co.uk"), domain("vinted.es"), domain("vinted.it"), domain("vinted.at") {
     :root {
     --main-bg-color: #222;
     --main-sect: #242020;
