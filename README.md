@@ -16,4 +16,5 @@ Works sitewide **except** :
 
 
 You can download Stylus on there : https://add0n.com/stylus.html
+
 Style coded in CSS with the UserCSS formatting : https://github.com/openstyles/stylus/wiki/Usercss
