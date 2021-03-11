@@ -1,0 +1,110 @@
+/* ==UserStyle==
+@name           Vinted Dark Mode
+@namespace      github.com/openstyles/stylus
+@version        0.1.1
+@description    A personal dark mode for vinted.fr
+@author         Alma ML
+==/UserStyle== */
+
+@-moz-document domain("vinted.fr") {
+    :root {
+    --main-bg-color: #222;
+    --main-sect: #242020;
+    --sections: #332c2c;
+    --main-text: white;
+    --secondary-txt: #c1d1d5;
+    --linings:red;
+    --vintedblue: #09b1ba;
+    
+    --forums-op: #3d7f91;
+    --forums-posts: #6a6a6a;
+}
+
+body, 
+.site-content
+    {
+    background-color: var(--main-bg-color) !important;
+        color: var(--main-text);
+}
+
+
+.box,
+.u-text-wrap,
+.c-text,
+.box--item-details .details-list__item,
+.Cell_cell__3V4ao,
+.Cell_tight__ArRHW,
+.Text_amplified__2ccjx,
+.Text_title__2EQGT,
+.c-tabs,
+.c-tabs__item,
+.c-label,
+.c-card,
+.c-cell,
+.c-cell__title,
+.item-box,
+.item-box__details,
+.Label_label__1I5-T,
+.Cell_title__1gULu
+{
+    background-color: var(--sections) !important;
+    color: var(--main-text);
+}
+
+/**highlights**/
+.Text_heading__gV4um
+{
+    color: var(--secondary-txt);
+}
+
+/**greyer text **/
+
+.box--item-details .details-list--details .details-list__item-value,
+.nav-stacked.nav-detailed .nav-link,
+.Text_body__MkQC-,
+.user-created-content
+    {
+    color: var(--secondary-txt);
+}
+
+.l-header {
+    background-color:var(--main-sect);
+    }
+    
+.container {
+    background: transparent;
+    }
+.l-header__navigation {
+    border-color: var(--vintedblue);
+}
+
+
+/**messages outline in**/
+.Bubble_narrow__KI5Gm
+ {
+    background: transparent;
+    border: solid 0px;
+}
+
+/**messages outline**/
+.Bubble_bubble__2cO8l
+ {
+    background: transparent;
+    border: solid 1px var(--vintedblue);
+}
+/**User menus**/
+.dropdown {
+        background: var(--sections);
+    }
+
+/** forums **/
+
+.author .user-message-content
+ {
+    background-color: var(--forums-op);
+}
+
+.user-message-content {
+    background-color: var(--forums-posts);
+}
+}
